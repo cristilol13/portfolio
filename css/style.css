@@ -8,6 +8,8 @@ body {
 
 a {text-decoration: none;}
 
+img {max-width: 100%;}
+
 
 .contenedor {
     width: 100%;
@@ -17,8 +19,6 @@ header{
     
     padding: 15px 0;
     border-bottom: 1px solid #3E3E4B;
-    
-   
     
 }
 
@@ -64,17 +64,38 @@ header{
 }
 
 main {
-    width: 100%;
+    width: 100%; 
+    
+}
+
+.sobremi{
+    height: 100vh;
     display: flex;
-    flex-wrap: wrap;
-   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F5FFFA;
     
     
 }
 
+.sobremi_datos {
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+
+.sobremi_datos {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+
 .img_portfolio {
-    width: 50%;
-    height: 600px;
+    width: 100%;
+    height: 350px;
     display: flex;
     align-items: flex-end;
     
@@ -82,23 +103,29 @@ main {
 
 }
 
+.img_portfolio.bg-green {
+    background: url(../img/Talkit-portfolio.png);
+    background-size: cover;
+    background-position: center;
+}
+
 
 
 .img_portfolio.bg-yellow {
-    background: url(../img/AllerFree.jpg);
+    background: url(../img/AllerFree.png);
     background-size: cover;
     background-position: center;
 }
 
 .img_portfolio.bg-electric {
-    background: url(../img/hiart.jpg);
+    background: url(../img/hiart.png);
     background-size: cover;
     background-position: center;
 
 }
 
 .img_portfolio.bg-purple {
-    background: url(../img/wallapop.jpg);
+    background: url(../img/wallapop.png);
     background-size: cover;
     background-position: center;
 
@@ -118,7 +145,8 @@ main {
 
 footer {
     height: 50vh;
-    background: white;
+    background: transparent;
+    z-index: 100;
 }
 
 .footer_copy {
@@ -178,7 +206,7 @@ footer {
     }
 
     .cabecera__menu-cat {
-        margin-top: 50%;
+        margin-top: 80%;
         font-size: 20px;
     }
 
@@ -205,7 +233,7 @@ footer {
     }
 
     .portfolio_datos {
-        width: 300px;
+        width: 218px;
         line-height: 20px;
         text-align: right;
         font-weight: lighter;
@@ -245,6 +273,12 @@ footer {
 
     header {
         width: 285px;
+    }
+
+    .sobremi_datos {
+        font-weight: 300;
+        font-size: 27px;
+        width: 700px;
     }
 
 
