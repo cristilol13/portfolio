@@ -147,11 +147,20 @@ main {
 
 }
 
+.img_portfolio.bg-anil {
+    background: url(../img/drop.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
 .img_portfolio.bg-pink {
     background: url(../img/Poemario.jpg);
     background-size: cover;
     background-position: center;
 }
+
+
 
 .portfolio_datos {
     width: 100%;
